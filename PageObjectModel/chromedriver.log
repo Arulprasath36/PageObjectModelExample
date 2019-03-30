@@ -1,0 +1,136 @@
+[1547971336.405][INFO]: COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      }
+   }
+}
+[1547971336.412][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1547971336.418][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1547971336.473][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-extension="C:\Users\Elcot\AppData\Local\Temp\scoped_dir6756_4114\internal" --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=12593 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Elcot\AppData\Local\Temp\scoped_dir6756_29623" data:,
+[1547971338.316][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1547971339.868][INFO]: RESPONSE InitSession {
+   "acceptInsecureCerts": false,
+   "acceptSslCerts": false,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91)",
+      "userDataDir": "C:\\Users\\Elcot\\AppData\\Local\\Temp\\scoped_dir6756_29623"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Windows NT",
+   "rotatable": false,
+   "setWindowRect": true,
+   "~~~": "..."
+}
+[1547971340.032][INFO]: COMMAND Navigate {
+   "url": "https://opensource-demo.orangehrmlive.com/index.php/auth/validateCredentials"
+}
+[1547971340.032][INFO]: Waiting for pending navigations...
+[1547971340.036][INFO]: Done waiting for pending navigations. Status: ok
+[1547971344.344][INFO]: Waiting for pending navigations...
+[1547971346.894][INFO]: Done waiting for pending navigations. Status: ok
+[1547971346.894][INFO]: RESPONSE Navigate
+[1547971346.966][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "txtUsername"
+}
+[1547971346.966][INFO]: Waiting for pending navigations...
+[1547971346.967][INFO]: Done waiting for pending navigations. Status: ok
+[1547971347.018][INFO]: Waiting for pending navigations...
+[1547971347.019][INFO]: Done waiting for pending navigations. Status: ok
+[1547971347.019][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7434796950088423-1"
+}
+[1547971347.045][INFO]: COMMAND TypeElement {
+   "id": "0.7434796950088423-1",
+   "value": [ "Admin1" ]
+}
+[1547971347.045][INFO]: Waiting for pending navigations...
+[1547971347.047][INFO]: Done waiting for pending navigations. Status: ok
+[1547971347.235][INFO]: Waiting for pending navigations...
+[1547971347.237][INFO]: Done waiting for pending navigations. Status: ok
+[1547971347.237][INFO]: RESPONSE TypeElement
